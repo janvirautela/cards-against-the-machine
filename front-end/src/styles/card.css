@@ -1,0 +1,16 @@
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    width: calc(30% - 24px); /* Responsive width considering the gap */
+    height: calc(50% - 24px); /* Adjusted height to account for padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+}
+
+/* Hover effect for cards */
+.card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+}

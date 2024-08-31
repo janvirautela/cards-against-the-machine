@@ -1,0 +1,11 @@
+.prompt {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    width: 100%; /* Full width for the prompt */
+    height: 100%; /* Full height for the prompt */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+}
