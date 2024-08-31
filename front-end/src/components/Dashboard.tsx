@@ -14,10 +14,10 @@ interface DashboardProps {
 const Dashboard: React.FC<DashboardProps> = ({ cardArray }) => {
     return (
         <div className="dashboard">
-            <div>
+            <div className="prompt-container">
                 <Prompt prompt="This is a test prompt" />
             </div>
-            <div>
+            <div className="cards-container">
                 {cardArray.map((x) => (
                     <Card key={x.id} answer={x.answer} />
                 ))}

@@ -1,9 +1,11 @@
+import "../styles/prompt.css";
+
 interface PromptProps {
     prompt: string;
 }
 
 const Prompt: React.FC<PromptProps> = ({ prompt }) => {
-    return <div>{prompt}</div>;
+    return <div className="prompt">{prompt}</div>;
 };
 
 export default Prompt;

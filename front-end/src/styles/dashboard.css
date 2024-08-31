@@ -3,4 +3,30 @@
     padding: 20px;
     overflow-y: auto; /* Enables scrolling if content overflows */
     background-color: gray;
+    margin: 0 auto; /* Center the dashboard horizontally */
+    height: 100%;
+    max-width: 1200px; /* Maximum width for the dashboard */
+    box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+}
+
+.prompt-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows the cards to wrap to the next row */
+    gap: 16px; /* Space between each card */
+    justify-content: center; /* Center the cards horizontally */
+    padding: 16px;
+    height: 20%; /* Height of the prompt-container relative to dashboard */
+    box-sizing: border-box; /* Include padding in the height calculation */
+    overflow: hidden; /* Prevents overflow issues */
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows the cards to wrap to the next row */
+    gap: 16px; /* Space between each card */
+    justify-content: center; /* Center the cards horizontally */
+    padding: 16px;
+    height: 80%; /* Height of the cards-container relative to dashboard */
+    box-sizing: border-box; /* Include padding in the height calculation */
+    overflow: auto; /* Allows scrolling if content overflows */
 }

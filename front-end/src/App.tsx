@@ -3,7 +3,7 @@ import "./styles/app.css";
 import Navbar from "./components/Navbar";
 import Dashboard from "./components/Dashboard";
 
-const arrayToTen = Array.from({ length: 10 }, (_, index) => index);
+const arrayToTen = Array.from({ length: 6 }, (_, index) => index);
 
 const App = () => {
     const cardArr = arrayToTen.map((x) => ({
