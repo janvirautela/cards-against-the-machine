@@ -1,0 +1,7 @@
+.navbar {
+    height: 60px; /* Fixed height for the Navbar */
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
