@@ -2,10 +2,10 @@
     flex: 1; /* This makes the Dashboard take up the remaining space */
     padding: 20px;
     overflow-y: auto; /* Enables scrolling if content overflows */
-    background-color: gray;
+    background-color: rgb(50, 50, 50);
     margin: 0 auto; /* Center the dashboard horizontally */
     height: 100%;
-    max-width: 1200px; /* Maximum width for the dashboard */
+    width: 100%; /* Maximum width for the dashboard */
     box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
 }
 
