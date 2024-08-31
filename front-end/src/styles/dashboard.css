@@ -1,0 +1,6 @@
+.dashboard {
+    flex: 1; /* This makes the Dashboard take up the remaining space */
+    padding: 20px;
+    overflow-y: auto; /* Enables scrolling if content overflows */
+    background-color: gray;
+}
