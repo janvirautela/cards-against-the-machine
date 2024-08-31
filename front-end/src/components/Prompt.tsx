@@ -1,10 +1,9 @@
-const Prompt = () => {
-    return (
-        <div>
-            <div>Text</div>
-            <div>Cards Against the Machine</div>
-        </div>
-    );
+interface PromptProps {
+    prompt: string;
+}
+
+const Prompt: React.FC<PromptProps> = ({ prompt }) => {
+    return <div>{prompt}</div>;
 };
 
 export default Prompt;
